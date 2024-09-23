@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todo/constants.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -8,7 +9,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.brown.shade700,
       appBar: AppBar(
-        title: const Text('To Do'),
+        title: const Text('To Do', style: kAppBarStyle,),
         centerTitle: true,
         elevation: 0,
         backgroundColor: Colors.brown,
