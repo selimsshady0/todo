@@ -5,6 +5,26 @@ class ToDoTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Padding(
+      padding: const EdgeInsets.all(40.0),
+      child: Container(
+        padding: const EdgeInsets.all(24),
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(26),
+          color: Colors.brown,
+        ),
+        child: Row(
+          children: [
+            // checkbox
+            Checkbox(
+              value: true,
+              onChanged: (value) {},
+            ),
+            // task name
+            const Text('Make Kebab'),
+          ],
+        ),
+      ),
+    );
   }
 }
