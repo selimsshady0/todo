@@ -25,8 +25,10 @@ class HomePage extends StatelessWidget {
         ),
       ),
       body: ListView(
-        children: const [
-          ToDoTile(),
+        children: [
+          ToDoTile(taskName: "Complete To Do Application", taskCompleted: false, onChanged: (p0) {
+            
+          },),
         ],
       ),
     );
