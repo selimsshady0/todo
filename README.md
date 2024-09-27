@@ -7,13 +7,7 @@ Here is the ss from appliaction
 
 
 
-## Ekran Görüntüleri
+## Screenshoots
 
-![Uygulama Ekran Görüntüsü](screenshoots\1.png)
-
-![Uygulama Ekran Görüntüsü](screenshoots\2.png)
-
-  
-![Uygulama Ekran Görüntüsü](screenshoots\3.png)
-
+<img src= "screenshoots\1.png" width="200px"> <img src= "screenshoots\2.png" width="200px"> <img src= "screenshoots\3.png" width="200px">
   
